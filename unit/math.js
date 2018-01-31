@@ -35,3 +35,11 @@ describe("Math", function() {
     })
   })
 })
+
+describe("Division", function() {
+  it("x / y = x / y", function() {
+    assert.strictEqual(math.divide(10, 5), 2)
+    assert.strictEqual(math.divide(6, 2), 3)
+    assert.strictEqual(math.divide(8, 2), 4)
+  })
+})
